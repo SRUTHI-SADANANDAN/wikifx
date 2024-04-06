@@ -1,0 +1,29 @@
+.logoimg{
+   border-radius: 18%;
+   /* padding: 10px; */
+   height: 100px;
+   width: 100px;
+}
+.companyname{
+   font-family: courier T1;
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 20px;
+   
+}
+.flag{
+   font-size: small;
+   /* border: 1px solid black; */
+   padding: 2px;
+   font-family: jealousy;
+
+
+
+}
+.years, .state{
+   font-size: small;
+   /* border: 1px solid black; */
+   font-family: jealousy;
+   padding: 2px;
+
+}
