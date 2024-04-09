@@ -21,8 +21,9 @@ export default function About() {
                 <Row >
                     <Col >
                         <div className='about-start'>
+                            
                             <h1 className='main-head' >
-                                Our mission is to help every Indian <span style={{color:"black"}}>confidently</span> Up their wealth
+                                Our mission is to help every Indian <span style={{color:"rgba(232,13,15,255)"}}>confidently</span> Up their wealth
                             </h1>
 
                             <p style={{ fontSize: "1.", marginBottom: 0 }}>Welcome to thefxreview.com, the one-stop destination for in-depth, objective reviews of trading platforms, forex brokers, and educational materials. Our mission at thefxreviews.com is to equip traders of all skill levels with the information and resources they need to thrive in the fast-paced world of forex trading.</p>

@@ -7,6 +7,10 @@ import ReactPlayer from 'react-player';
 import investment from '../Components/investing.jpg'
 import news from '../Components/cryptoslate.jpg'
 import lorem from '../Components/lorem.jpg'
+import logo2 from '../Components/LOGO2.avif'
+import logo3 from '../Components/logo3.avif'
+import logo4 from '../Components/logotriangle.avif'
+import logo5 from '../Components/logo5.avif'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,20 +30,23 @@ import 'animate.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import LazyLoad from "react-lazyload";
+import badge1 from '../Components/badge1.png'
+import badge2 from '../Components/badge2.png'
+import badge3 from '../Components/badge3.png'
 
 
 
 const CardSlider = () => {
     const [isHovered, setIsHovered] = useState(false);
-  
+
     const settings = {
-      dots: true,
-      infinite: true,
-      speed: 9000,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      nextArrow: <i className="fa-solid fa-arrow-right"></i>,
-      prevArrow: <i className="fa-solid fa-arrow-left"></i>
+        dots: true,
+        infinite: true,
+        speed: 9000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow: <i className="fa-solid fa-arrow-right"></i>,
+        prevArrow: <i className="fa-solid fa-arrow-left"></i>
     };
 }
 
@@ -240,6 +247,24 @@ const UserProfile = () => {
                                                     <p style={{ marginTop: 10, textAlign: "justify" }}>The Indian stock market indices, Sensex and Nifty 50, are expected to see a muted opening on Friday amid mixed global market cues.</p>
                                                 </div>
                                             </div>
+                                            <div className="col-md">
+                                                <div className='d-ruby'>
+                                                    <img src={investment} alt="" height={150} width={200} style={{ borderRadius: 10 }} />
+                                                    <p style={{ marginTop: 10, textAlign: "justify" }}>The Indian stock market indices, Sensex and Nifty 50, are expected to see a muted opening on Friday amid mixed global market cues.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-md">
+                                                <div className='d-ruby'>
+                                                    <img src={investment} alt="" height={150} width={200} style={{ borderRadius: 10 }} />
+                                                    <p style={{ marginTop: 10, textAlign: "justify" }}>The Indian stock market indices, Sensex and Nifty 50, are expected to see a muted opening on Friday amid mixed global market cues.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-md">
+                                                <div className='d-ruby'>
+                                                    <img src={investment} alt="" height={150} width={200} style={{ borderRadius: 10 }} />
+                                                    <p style={{ marginTop: 10, textAlign: "justify" }}>The Indian stock market indices, Sensex and Nifty 50, are expected to see a muted opening on Friday amid mixed global market cues.</p>
+                                                </div>
+                                            </div>
 
 
 
@@ -248,99 +273,91 @@ const UserProfile = () => {
                                     {/* <div className="col-lg-4 mt-4 mt-lg-0"> */}
                                     {/* <ReactPlayer style={{ border: '1px solid #e0e3eb', background: '#131722', boxSizing: 'border-box' }} height={230} width={'100%'} url={'https://www.youtube.com/live/iyyI-_iPbxo?si=nxYGo-Q5sH_Kxs1C'} controls /> */}
                                     <div className="col-lg-4">
+                                        <h4 style={{ textAlign: "center", color: "red" }}>TOP FIVE BROKERS</h4>
 
-
-                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", marginTop: 20, borderRadius: 11 }}>
-
+                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", marginTop: 20, borderRadius: 11, padding: 10, backgroundColor: "white" }}>
                                             <div className="row">
-                                                <div className="col" style={{ textAlign: "center", marginTop: 13 }}>
-                                                    <img src={lorem} alt="" style={{ margin: 5, height: 50 }} />
-                                                    <h5 style={{ marginTop: 5, color: "black" }}>LOREM</h5>
-                                                </div>
-                                                <div className="col">
-                                                    <div style={{textAlign:"center"}}>
-                                                    <img src={rank1} alt="" style={{ marginTop: 5 }} />
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    <img src={lorem} alt="" style={{ margin: 5, height: 80,borderRadius: 50}} />
+                                                    <h3 style={{ marginTop: 10, color: "#343a40", fontSize: 24, fontWeight: "bold" }}>LOREM</h3>
 
-                                                        <h5><span style={{ fontStyle: 'italic', color: "rgba(232,13,15,255)" }}>9.06</span>  Score</h5>
-                                                    </div>
-                                                    <div className='year'>
+                                                </div>
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    {/* <h1 style={{ marginTop: 10, fontSize: 48, color: "#ff6f61", fontWeight: "bold" }}>1</h1> */}
+                                                    <img src={badge1} alt="" style={{ marginTop: 10, height: 50,borderRadius: 50 }} />
+
+                                                    <h4 style={{ marginBottom: 5, color: "#ff6f61", fontSize: 20 }}>8.06  Score</h4>
+                                                    <div className='year' style={{ fontSize: 16, color: "black",fontFamily:"jealousy" }}>
                                                         <p>Above 20 years</p>
                                                     </div>
-
                                                 </div>
-
-
                                             </div>
-
                                         </div>
-                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", marginTop: 20, borderRadius: 11 }}>
-
+                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", marginTop: 20, borderRadius: 11, padding: 10, backgroundColor: "white" }}>
                                             <div className="row">
-                                                <div className="col" style={{ textAlign: "center", marginTop: 13 }} >
-                                                    <div style={{textAlign:"center"}}>
-                                                    <img src={lorem} alt="" style={{ margin: 5, height: 50 }} />
-                                                    <h5 style={{ marginTop: 5, color: "black" }}>LOREM</h5>
-                                                    </div>
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    <img src={logo2} alt="" style={{ margin: 5, height: 80,borderRadius: 50}} />
+                                                    <h3 style={{ marginTop: 10, color: "#343a40", fontSize: 24, fontWeight: "bold" }}>LOREM</h3>
                                                 </div>
-                                                <div className="col">
-                                                    <div style={{textAlign:"center"}}>
-                                                    <img src={rank2} alt="" style={{ marginTop: 5 }} />
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    {/* <h1 style={{ marginTop: 10, fontSize: 48, color: "#ff6f61", fontWeight: "bold" }}>2</h1> */}
+                                                    <img src={badge2} alt="" style={{ marginTop: 10, height: 50,borderRadius: 50 }} />
 
-<h5><span style={{ fontStyle: 'italic', color: "rgba(232,13,15,255)" }}>9.06</span>  Score</h5>
-                                                    </div>
-                                                    <div className='year'>
+                                                    <h4 style={{ marginBottom: 5, color: "#ff6f61", fontSize: 20 }}>8.06  Score</h4>
+                                                    <div className='year' style={{ fontSize: 16, color: "black",fontFamily:"jealousy" }}>
                                                         <p>Above 20 years</p>
                                                     </div>
-
                                                 </div>
-
-
                                             </div>
                                         </div>
 
-                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", marginTop: 20, borderRadius: 11 }}>
-
+                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", marginTop: 20, borderRadius: 11, padding: 10, backgroundColor: "white" }}>
                                             <div className="row">
-                                                <div className="col" style={{ textAlign: "center", marginTop: 13 }} >
-                                                    <img src={lorem} alt="" style={{ margin: 5, height: 50 }} />
-                                                    <h5 style={{ marginTop: 5, color: "black" }}>LOREM</h5>
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    <img src={logo3} alt="" style={{ margin: 5, height: 80, borderRadius: 50}} />
+                                                    <h3 style={{ marginTop: 10, color: "#343a40", fontSize: 24, fontWeight: "bold" }}>LOREM</h3>
                                                 </div>
-                                                <div className="col">
-                                                        <div style={{textAlign:"center"}}>
-                                                        <img src={rank3} alt="" style={{ marginTop: 5 }} />
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    {/* <h1 style={{ marginTop: 10, fontSize: 48, color: "#ff6f61", fontWeight: "bold" }}>3</h1> */}
+                                                    <img src={badge3} alt="" style={{ marginTop: 10, height: 50 }} />
 
-                                                            <h5><span style={{ fontStyle: 'italic', color: "rgba(232,13,15,255)" }}>9.06</span>  Score</h5>
-                                                        </div>
-                                                    <div className='year'>
+                                                    <h4 style={{ marginBottom: 5, color: "#ff6f61", fontSize: 20 }}>8.06  Score</h4>
+                                                    <div className='year' style={{ fontSize: 16, color: "black",fontFamily:"jealousy"}}>
                                                         <p>Above 20 years</p>
                                                     </div>
-
                                                 </div>
-
-
                                             </div>
                                         </div>
 
-                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", marginTop: 20, borderRadius: 11 }}>
-
+                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", marginTop: 20, borderRadius: 11, padding: 10, backgroundColor: "white" }}>
                                             <div className="row">
-                                                <div className="col" style={{textAlign:"center",marginTop:13}} >
-                                                    <img src={lorem} alt="" style={{ margin: 5, height: 50 }} />
-                                                    <h5 style={{ marginTop: 11, color: "black" }}> LOREM</h5>
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    <img src={logo4} alt="" style={{ margin: 5, height: 80, borderRadius: 50}} />
+                                                    <h3 style={{ marginTop: 10, color: "#343a40", fontSize: 24, fontWeight: "bold" }}>LOREM</h3>
                                                 </div>
-                                                <div className="col">
-                                                    <div style={{textAlign:"center"}}>
-                                                    <img src={rank1} alt="" style={{ marginTop: 5 }} />
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    <h1 style={{ marginTop: 10, fontSize: 48, color: "maroon", fontWeight: "bold" }}>4</h1>
 
-                                                    <h5><span style={{ fontStyle: 'italic', color: "rgba(232,13,15,255)" }}>9.06</span>  Score</h5>
-                                                    </div>
-                                                    <div className='year'>
+                                                    <h4 style={{ marginBottom: 5, color: "#ff6f61", fontSize: 20 }}>8.06  Score</h4>
+                                                    <div className='year' style={{ fontSize: 16, color: "black",fontFamily:"jealousy" }}>
                                                         <p>Above 20 years</p>
                                                     </div>
-
                                                 </div>
-
-
+                                            </div>
+                                        </div>
+                                        <div style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", marginTop: 20, borderRadius: 11, padding: 5, backgroundColor: "white" }}>
+                                            <div className="row">
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    <img src={logo5} alt="" style={{ margin: 5, height: 80, borderRadius: 50}} />
+                                                    <h3 style={{ marginTop: 10, color: "#343a40", fontSize: 24, fontWeight: "bold" }}>LOREM</h3>
+                                                </div>
+                                                <div className="col" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                                    <h1 style={{ marginTop: 10, fontSize: 48, color: "maroon", fontWeight: "bold" }}>5</h1>
+                                                    <h4 style={{ marginBottom: 5, color: "#ff6f61", fontSize: 20 }}>8.06  Score</h4>
+                                                    <div className='year' style={{ fontSize: 16, color: "black" }}>
+                                                        <p>Above 20 years</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -515,36 +532,36 @@ const UserProfile = () => {
                         </div>
 
                         <div className="slider-container">
-      <Slider {...settings}>
-        {[forextrade, forextrade2, forextrade3, forextrade4, forextrade5].map((imgSrc, index) => (
-          <LazyLoad key={index} height={200} once>
-            <div
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-            >
-              <Card className="card-section">
-                <Card.Img variant="top" src={imgSrc} />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </Card.Text>
-                  <Button className="read-more" variant="danger">
-                    Read more
-                  </Button>
-                </Card.Body>
-                <Card.Footer>
-                  <DivBetween>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                    <small className="text-muted">News Letters</small>
-                  </DivBetween>
-                </Card.Footer>
-              </Card>
-            </div>
-          </LazyLoad>
-        ))}
-      </Slider>
-    </div>
+                            <Slider {...settings}>
+                                {[forextrade, forextrade2, forextrade3, forextrade4, forextrade5].map((imgSrc, index) => (
+                                    <LazyLoad key={index} height={200} once>
+                                        <div
+                                            onMouseEnter={() => setIsHovered(true)}
+                                            onMouseLeave={() => setIsHovered(false)}
+                                        >
+                                            <Card className="card-section">
+                                                <Card.Img variant="top" src={imgSrc} />
+                                                <Card.Body>
+                                                    <Card.Title>Card Title</Card.Title>
+                                                    <Card.Text>
+                                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                    </Card.Text>
+                                                    <Button className="read-more" variant="danger">
+                                                        Read more
+                                                    </Button>
+                                                </Card.Body>
+                                                <Card.Footer>
+                                                    <DivBetween>
+                                                        <small className="text-muted">Last updated 3 mins ago</small>
+                                                        <small className="text-muted">News Letters</small>
+                                                    </DivBetween>
+                                                </Card.Footer>
+                                            </Card>
+                                        </div>
+                                    </LazyLoad>
+                                ))}
+                            </Slider>
+                        </div>
                     </section>
 
 

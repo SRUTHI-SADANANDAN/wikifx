@@ -26,7 +26,7 @@
 .education-page {
   margin-top: 2rem;
   font-family: "Roboto", Arial, sans-serif;
-  /* background-image: url("20289169_6256458.jpg"); */
+  background-image: url("../../Components/educ\ bgd.jpg");
   background-size: cover;
   min-height: 80vh;
 }

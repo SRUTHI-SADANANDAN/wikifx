@@ -17,7 +17,7 @@ function RankingList() {
   return (
     <div className="container py-3">
        
-    <div className="box">
+    <div className="box" >
       <h2><span style={{color:"red"}}>Ranking</span> List</h2>
     </div>
     <div className="container mt-5 mb-3">

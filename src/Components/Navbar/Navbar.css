@@ -17,11 +17,11 @@
 }
  
 .nav-link:hover{
-  color: crimson;
+  /* color: crimson; */
 }
 
 .active-link:hover{
-  color: black;
+  /* color: black; */
 }
 
 .bg-custom {
@@ -30,6 +30,6 @@
 }
 
 .bg-custom .active-link {
-  color: white;
+  /* color: white; */
 }
 
