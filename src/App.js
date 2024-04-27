@@ -95,7 +95,7 @@ function App() {
                 <>
                   {" "}
                   <NavbarSection />
-                  <ErrorPage/>
+                  <ErrorPage />
                   <Footer />
                 </>
               }
@@ -141,7 +141,7 @@ function App() {
               element={
                 <>
                   <NavbarSection />
-                  
+
                   <BrokersWithLoading />
                   <Footer />
                 </>
@@ -149,13 +149,13 @@ function App() {
               delay={1000}
             />
 
-             <Route
+            <Route
               path="/ranking-list"
               element={
                 <>
                   <NavbarSection />
                   {/* <RankingListWithLoading/> */}
-                  <YourComponent/>
+                  <YourComponent />
                   <Footer />
                 </>
               }

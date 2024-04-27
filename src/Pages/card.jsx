@@ -60,7 +60,7 @@ const YourComponent = () => {
             <motion.div
               layoutId={item.id}
               onClick={() => setSelectedId(selectedId === item.id ? null : item.id)}
-              className="card p-3 mb-2"
+              className="card p-3 mb-2 card-mb"
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 1.3 }}
             >

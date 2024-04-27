@@ -27,7 +27,7 @@ function Brokers() {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -50 }}
-      transition={{ duration: 0.5, ease: 'easeOut' }}>
+      transition={{ duration: 0.5, ease: 'easeOut'}}>
                     <MDBCard className="shadow-0 border rounded-3 mt-5 mb-3" >
                         <MDBCardBody>
                             <MDBRow>

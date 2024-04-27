@@ -37,18 +37,18 @@ export const NavbarSection = (props) => {
               <Link to="/about-us" className={`nav-link ${location.pathname === '/about-us' ? 'active-link' : ''}`}>About Us</Link>
               <Link to="/contact-us" className={`nav-link ${location.pathname === '/contact-us' ? 'active-link' : ''}`}>Contact Us</Link>
             </Nav>
-            <Nav className="flex-row">
-              <div className="col">
+            <Nav className="flex-row" style={{marginLeft:20}}>
+              <div className="col-">
               <Nav.Link href="#youtube">
                 <i className="fab fa-youtube"></i>
               </Nav.Link>
               </div>
-              <div className="col-4">
+              <div className="col-">
               <Nav.Link href="#facebook">
                 <i className="fab fa-facebook-f"></i>
               </Nav.Link>
               </div>
-              <div className="col-4">
+              <div className="col-">
               <Nav.Link href="#instagram">
                 <i className="fab fa-instagram"></i>
               </Nav.Link>
